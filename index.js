@@ -230,7 +230,7 @@ var RemitaPayment = /*#__PURE__*/ function (_Component) {
                 lastName = _this$props$remitaDat.lastName,
                 email = _this$props$remitaDat.email,
                 amount = _this$props$remitaDat.amount,
-                channel = null ? null : _this$props$remitaDat.channel;
+                channel = null ? null : _this$props$remitaDat.channel,
                 narration = _this$props$remitaDat.narration,
                 onError = _this$props$remitaDat.onError;
 
