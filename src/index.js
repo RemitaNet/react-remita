@@ -86,9 +86,9 @@ export default class RemitaPayment extends Component {
   }
 
   render() {
-    const { className, text } = this.props;
+    const { className, text, disabled=false } = this.props;
     return (
-      <button className={className} onClick={() => this.startPayment()}>
+      <button className={className} onClick={() => this.startPayment()} disabled={disabled}>
         {text || "Pay"}
       </button>
     );
