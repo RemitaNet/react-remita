@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import useRemita from "./hooks/useRemita";
 const cachedScripts = [];
 export default class RemitaPayment extends Component {
   constructor(props) {
@@ -94,3 +94,4 @@ export default class RemitaPayment extends Component {
     );
   }
 }
+export {useRemita}
