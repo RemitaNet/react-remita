@@ -29,6 +29,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/RemitaNet/react-remita"
-  }
+    "url": "git+https://github.com/RemitaNet/react-remita.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RemitaNet/react-remita/issues"
+  },
+  "homepage": "https://github.com/RemitaNet/react-remita#readme"
 }

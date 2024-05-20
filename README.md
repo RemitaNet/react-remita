@@ -1,31 +1,39 @@
 # react-remita
 
-This is a react library for integrating the Remita payment gateway
+---
+- [Overview](#Overview)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
 
-## Demo
-![img](Remita_checkout.PNG "Sample Checkout Image")
-## Get Started
-
+---
+## Overview
+**react-remita** a react library for integrating the Remita payment gateway.
 This React library provides a wrapper to add Remita Payment Checkout to your React application
 
-### Install
-
-npm install react-remita --save
+![img](Remita_checkout.PNG "Sample Checkout Image")
 
 
-or with `yarn`
+
+## Installation
+Run the following command to install **react-remita**:
+
+`npm install react-remita --save`
+
+
+or with Yarn
 
 sh
-yarn add react-remita
+`yarn add react-remita`
 
 
-### Usage
+## Usage
 
 This library can be integrated into any react application by using a button provided by the library
 
 ### Using the Remita button
 
-sample javascript
+_Sample JavaScript:_
 ````
 import "./App.css";
 import RemitaPayment from "react-remita";
@@ -111,7 +119,7 @@ export default App;
 
 ````
 
-Sample Css Styling
+_Sample CSS Styling:_
 ```
 body {
   margin: 0;
@@ -169,14 +177,19 @@ You can obtain your public key by signing up on [Remita](https://remita.net) as 
 REMEMBER TO CHANGE THE KEY WHEN DEPLOYING ON A LIVE/PRODUCTION SYSTEM AND ALSO INCLUDE THE live PROP WHEN SWITCHING TO PRODUCTION
 
 ## Contributing
+- To contribute to this repo, follow these guidelines for creating issues, proposing new features, and submitting pull requests:
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -am 'Some commit message'`
-4. Push to the branch: `git push origin feature-name`
-5. Submit a pull request
+Fork the repository.
+1. Create a new branch: `git checkout -b "feature-name"`
+2. Make your changes and commit: `git commit -m "added some new features"`
+3. Push your changes: `git push origin feature-name`
+4. Submit a Pull Request (PR).
 
-Thanks!.
+### Useful links
+* Join our Slack Developer/Support channel at (http://bit.ly/RemitaDevSlack)
+    
+### Support
+- For all other support needs, support@remita.net
 
 ## License
 
