@@ -14,7 +14,7 @@ export default class RemitaPayment extends Component {
     const { live } = this.props;
     let script;
     let src = !live
-      ? "https://remitademo.net/payment/v1/remita-pay-inline.bundle.js"
+      ? "https://demo.remita.net/payment/v1/remita-pay-inline.bundle.js"
       : "https://login.remita.net/payment/v1/remita-pay-inline.bundle.js";
     if (cachedScripts.includes(src)) {
       this.setState({

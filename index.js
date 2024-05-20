@@ -181,7 +181,7 @@ var RemitaPayment = /*#__PURE__*/ function (_Component) {
 
             var live = this.props.live;
             var script;
-            var src = !live ? "https://remitademo.net/payment/v1/remita-pay-inline.bundle.js" : "https://login.remita.net/payment/v1/remita-pay-inline.bundle.js";
+            var src = !live ? "https://demo.remita.net/payment/v1/remita-pay-inline.bundle.js" : "https://login.remita.net/payment/v1/remita-pay-inline.bundle.js";
 
             if (cachedScripts.includes(src)) {
                 this.setState({
